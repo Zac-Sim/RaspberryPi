@@ -5,5 +5,7 @@ sudo apt update
 sudo apt-get install oracle-java17-installer oracle-java17-set-default
 
 sudo apt install screen
-mkdir minecraft
-cd minecraft
+
+git clone https://github.com/Cat5TV/pinecraft
+cd pinecraft/
+sudo ./install
